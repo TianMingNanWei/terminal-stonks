@@ -7,8 +7,7 @@ name = "terminal-stonks"
 version = "0.1.0"
 description = "Terminal-based stock chart visualization library"
 readme = "README.md"
-license = "MIT"
-license-files = ["LICENSE"]
+license = {file = "LICENSE"}
 authors = [
     {name = "Sun Jiaxuan", email = "sunjiaxuan@hotmail.com"}
 ]
@@ -21,6 +20,7 @@ classifiers = [
     "Environment :: Console",
     "Intended Audience :: Developers",
     "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
